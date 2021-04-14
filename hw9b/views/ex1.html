@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="/styles.css" type="text/css">
+</head>
+<body>
+    <h1><a href="/">Link to Start Page</a></h1>
+    <h3>Stephanie's Sample Form1</h3><br>
+
+    <form>
+        Name: <input type="text" name="name">
+        <br>
+        <br>
+        Email: <input type="email" name="email">
+        <br>
+        <br>
+        Payment Type: 
+        <br>  
+            <input type="radio" name="payment" value ="cash"checked>Cash
+            <br>
+            <input type="radio" name="payment" value ="cc">Credit Card
+            <br>
+            <input type="radio" name="payment" value ="gpay">Google Pay
+            <br>
+            <input type="radio" name="payment" value ="apay">Apple Pay
+            <br>
+            <br>      
+        <input type="checkbox" name="promotions" id="promotions" checked>
+        <label for="promotions">Sign me up for special promotions</label>
+        <br>
+        <br>
+        Preferred Location:
+        <select name="location">
+            <option value="SD">San Diego</option>
+            <option value="OC">Orange</option>
+            <option value="LA">Los Angeles</option>
+            <option value="VC">Ventura</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="button" value="Cancel">
+    </form>
+    <br>
+
+    <p id="result"></p>
+    <script src="/ex1.js"></script>
+</body>
+
+</html>
